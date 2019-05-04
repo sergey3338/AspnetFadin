@@ -14,6 +14,7 @@ namespace AspnetFadin.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+          //  throw new Exception("Aspnet Exception");
             return new string[] { "value1", "value2" };
         }
 
