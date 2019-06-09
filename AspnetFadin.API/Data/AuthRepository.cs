@@ -1,3 +1,9 @@
+using System;
+using System.Security.Criptography;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore; 
+using AspnetFadin.API.Models;
+
 namespace AspnetFadin.API.Data
 {
     public class AuthRepository : IAuthRepository
